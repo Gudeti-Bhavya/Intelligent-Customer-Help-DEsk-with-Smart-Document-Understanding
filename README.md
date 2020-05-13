@@ -18,6 +18,8 @@ iv) Build  a  web  application  with  integration  to  all  these  services  and
 
 ### 3. Functional  Requirements:
 
+![Capture](https://user-images.githubusercontent.com/64901867/81792927-55dc0580-9526-11ea-9339-8c817ecac130.PNG)
+
 step-1: The  data  source  from  external  is  annotated  by  using  Watson  Discovery Smart  Document  Understanding.
 
 step-2: The  user  interacts  with  the  back-end  server  through  the  application  user  interface. The  front-end  app  user  interface  is  a  chatbot  that  engages  the  user  in  a  conversaton.
