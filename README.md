@@ -1,12 +1,14 @@
 # Intelligent-Customer-Help-Desk-with-Smart-Document-Understanding
+Category : Artificial  Intelligence
 
-The typical customer care chatbot can answer simple questions, such as store locations and hours, directions, and maybe even making appointments. When a question falls outside of the scope of the pre-determined question set, the option is typically to tell the customer the question isn’t valid or offer to speak to a real person.
+1. Project  Summary :
+    In  this  project, we  use  the  typical  customer  care  chatbot  experience, but  instead  of  relying  on  pre-determined  responses, the  dialog  provides  a  hook  that   can  call  out  to  other  IBM  Watson  services  for  additional  sources  of  information. In  this  case, its  an  owner  manual  that  has  been  uploaded  to  Watson  Discovery.
 
-In this project, we will go through an example of a web app that utilizes multiple watson services to create a better customer care experience. If the customer question is about the operation of a device, the application shall pass the question onto Watson Discovery Service, which has been pre-loaded with the device’s owners manual. So now, instead of “Would you like to speak to a customer representative?” we can return relevant sections of the owners manual to help solve our customers’ problems.
+2. Project  Requirements :
+i) Create  a  customer  care  dialog  skill  in  Watson  Assistant.
+ii) Smart  Document  Understanding (SDU)  to  build  an  enhanced  Watson  Discovery  collection.
+iii) Create  an  IBM  Cloud  functions  web  action  that  allows  Watson  Assistant  to  post  queries  to  Watson  discovery.
+iv) Build  a  web  application  with  integration  to  all  these  services  and  deploy  the  same  on  IBM  Cloud  Platform.
 
-To take it a step further, the project shall use the Smart Document Understanding feature of Watson Discovery to train it on what text in the owners manual is important and what is not. This will improve the answers returned from the queries.
-
-1.Create a customer care dialog skill in Watson Assistant
-2.Use Smart Document Understanding to build an enhanced Watson Discovery collection
-3.Create an IBM Cloud Functions web action that allows Watson Assistant to post queries to Watson Discovery
-4.Build a web application with integration to all these services & deploy the same on IBM Cloud Platform
+3. Functional  Requirements:
+step-1: The  data  source  from  external  is  annotated  by  using  Watson  Discovery 
