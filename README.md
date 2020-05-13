@@ -4,7 +4,7 @@
 
 ### 1. Project  Summary :
     
-    In  this  project, we  use  the  typical  customer  care  chatbot  experience, but  instead  of  relying  on  pre-determined  responses, the  dialog  provides  a  hook  that   can  call  out  to  other  IBM  Watson  services  for  additional  sources  of  information. In  this  case, its  an  owner  manual  that  has  been  uploaded  to  Watson  Discovery.
+In  this  project, we  use  the  typical  customer  care  chatbot  experience, but  instead  of  relying  on  pre-determined  responses, the  dialog  provides  a  hook  that   can  call  out  to  other  IBM  Watson  services  for  additional  sources  of  information. In  this  case, its  an  owner  manual  that  has  been  uploaded  to  Watson  Discovery.
 
 ### 2. Project  Requirements :
 
